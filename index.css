@@ -641,6 +641,10 @@ video {
   flex-wrap: wrap;
 }
 
+.items-center {
+  align-items: center;
+}
+
 .gap-2 {
   gap: 0.5rem;
 }
@@ -697,6 +701,14 @@ video {
   background-color: rgb(121 162 80 / 0.85);
 }
 
+.bg-asparagus\/60 {
+  background-color: rgb(121 162 80 / 0.6);
+}
+
+.bg-asparagus\/65 {
+  background-color: rgb(121 162 80 / 0.65);
+}
+
 .p-6 {
   padding: 1.5rem;
 }
@@ -744,6 +756,15 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-\[14px\] {
+  font-size: 14px;
 }
 
 .font-bold {
