@@ -569,6 +569,10 @@ video {
   height: 1123px;
 }
 
+.h-\[200px\] {
+  height: 200px;
+}
+
 .h-\[2px\] {
   height: 2px;
 }
@@ -577,20 +581,16 @@ video {
   height: 100%;
 }
 
-.h-\[160px\] {
-  height: 160px;
-}
-
-.h-\[200px\] {
-  height: 200px;
-}
-
 .max-h-\[140px\] {
   max-height: 140px;
 }
 
 .w-2\/3 {
   width: 66.666667%;
+}
+
+.w-\[200px\] {
+  width: 200px;
 }
 
 .w-\[300px\] {
@@ -603,34 +603,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[200\] {
-  width: 200;
-}
-
-.w-\[160\] {
-  width: 160;
-}
-
-.w-\[140\] {
-  width: 140;
-}
-
-.w-\[140px\] {
-  width: 140px;
-}
-
-.w-\[150px\] {
-  width: 150px;
-}
-
-.w-\[160px\] {
-  width: 160px;
-}
-
-.w-\[200px\] {
-  width: 200px;
 }
 
 .flex-col {
@@ -666,22 +638,8 @@ video {
   border-radius: 9999px;
 }
 
-.rounded-\[50\%\] {
-  border-radius: 50%;
-}
-
 .rounded-br-2xl {
   border-bottom-right-radius: 1rem;
-}
-
-.bg-asparagus {
-  --tw-bg-opacity: 1;
-  background-color: rgb(121 162 80 / var(--tw-bg-opacity));
-}
-
-.bg-non-photo-blue {
-  --tw-bg-opacity: 1;
-  background-color: rgb(147 205 221 / var(--tw-bg-opacity));
 }
 
 .bg-oxford-blue {
@@ -689,24 +647,13 @@ video {
   background-color: rgb(16 37 63 / var(--tw-bg-opacity));
 }
 
-.bg-asparagus\/90 {
-  background-color: rgb(121 162 80 / 0.9);
+.bg-carribean-current {
+  --tw-bg-opacity: 1;
+  background-color: rgb(35 101 100 / var(--tw-bg-opacity));
 }
 
-.bg-asparagus\/80 {
-  background-color: rgb(121 162 80 / 0.8);
-}
-
-.bg-asparagus\/85 {
-  background-color: rgb(121 162 80 / 0.85);
-}
-
-.bg-asparagus\/60 {
-  background-color: rgb(121 162 80 / 0.6);
-}
-
-.bg-asparagus\/65 {
-  background-color: rgb(121 162 80 / 0.65);
+.bg-carribean-current\/85 {
+  background-color: rgb(35 101 100 / 0.85);
 }
 
 .p-6 {
@@ -743,6 +690,10 @@ video {
   line-height: 2.25rem;
 }
 
+.text-\[14px\] {
+  font-size: 14px;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -756,15 +707,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-.text-\[14px\] {
-  font-size: 14px;
 }
 
 .font-bold {

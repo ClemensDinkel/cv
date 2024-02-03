@@ -6,7 +6,7 @@ module.exports = {
       colors: {
         "oxford-blue": "#10253F",
         "non-photo-blue": "#93CDDD",
-        "asparagus": "#79A250"
+        "carribean-current": "#236564"
       },
       fontSize: {
         sm: ["16px", "30px"]
