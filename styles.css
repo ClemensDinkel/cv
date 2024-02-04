@@ -5,3 +5,13 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+
+.separator {
+    width: 100%;
+    height: 16px
+}
+@media print {
+    .separator {
+        display: none;
+    }
+}
