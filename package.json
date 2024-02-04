@@ -5,13 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch:css": "pnpx tailwindcss -i ./styles.css -o ./index.css --watch"
+    "watch:css": "pnpx tailwindcss -i ./styles.css -o ./index.css --watch",
+    "create:pdf": "node generatePdf.js"
   },
   "keywords": [],
   "author": "Clemens Dinkel",
   "license": "ISC",
   "devDependencies": {
-    "tailwindcss": "^3.4.1",
-    "eslint": "^8.56.0"
+    "eslint": "^8.56.0",
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "puppeteer": "^21.11.0"
   }
 }

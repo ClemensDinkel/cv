@@ -642,18 +642,13 @@ video {
   border-bottom-right-radius: 1rem;
 }
 
+.bg-carribean-current\/85 {
+  background-color: rgb(35 101 100 / 0.85);
+}
+
 .bg-oxford-blue {
   --tw-bg-opacity: 1;
   background-color: rgb(16 37 63 / var(--tw-bg-opacity));
-}
-
-.bg-carribean-current {
-  --tw-bg-opacity: 1;
-  background-color: rgb(35 101 100 / var(--tw-bg-opacity));
-}
-
-.bg-carribean-current\/85 {
-  background-color: rgb(35 101 100 / 0.85);
 }
 
 .p-6 {
@@ -664,12 +659,44 @@ video {
   padding: 2rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .pl-4 {
   padding-left: 1rem;
 }
 
 .pl-8 {
   padding-left: 2rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
 }
 
 .text-center {
